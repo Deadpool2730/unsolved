@@ -1,0 +1,369 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #343a40;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+header .logo{
+    display: flex;
+    margin-left: 0.75rem;
+}
+
+header .logo .logo-img{
+    width: 2rem;
+    height: 1.6rem;
+    margin-right: 1.2rem;
+}
+
+header .logo .loogo-img{
+    width: 6.2rem;
+    height: 1.5rem;
+    margin-right: 1.2rem;
+}
+
+header .logo .main{
+    margin-left: 1.2rem;
+    color: grey;
+}
+
+.nav-bar .incu{
+    border: 1px solid orangered;
+    padding: 0.5rem 0;
+}
+
+.nav-links li,a{
+    font-size: 1rem;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 5px;
+    color: grey;
+    font-weight: bold;
+}
+
+.first-sec{
+    display: flex;
+    height: 95vh;
+    background-color: #343a40;
+    line-height: 1;
+    padding:5rem 2.5rem;
+    color: white
+}
+
+.sub-1{
+    width: 50%;
+}
+
+.sub-1 h2{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.sub-1 p{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    font-weight: lighter;
+}
+
+
+
+.first-sec .sub-1 a{
+    color: white;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(199, 119, 90);
+    font-weight: lighter;
+}
+
+.first-sec .sub-1 a:hover{
+    background-color: rgb(216, 93, 48);
+}
+
+.first-sec .sub-2 img{
+    width: 100%;
+}
+
+.sub-2{
+    width: 50%;
+}
+
+
+.row{ 
+    display: flex; 
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px #888888;
+}
+
+.row .column{
+    /* margin: auto; */
+    /* padding: auto; */
+}
+
+.row img { 
+    width: 50%;
+    margin-left: 3rem;
+    text-align: center;
+} 
+
+.row h4{
+    font-weight: lighter;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.how-to {
+    margin-left: 3rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+    width: 80%;
+    left: 50%;
+    transform: translateX(5%);
+    /* height: 50vh; */
+}
+
+.how-to .phon-points{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phon-points ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cant{
+    text-align: center;
+    height: 30vh;
+    background-color: #eee;
+}
+
+.cant h1{
+    padding-top: 2.5rem;
+    font-weight: lighter;
+}
+
+.cant a{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color:  rgb(199, 119, 90);
+    color: white;
+    border-radius: 5px;
+}
+
+.cant a:hover{
+    background-color: rgb(216, 93, 48);
+}
+
+.founders{
+    width: 80%;
+    height: 60vh;
+    text-align: center;
+    left: 50%;
+    transform: translateX(10%);
+    padding-top: 2rem;
+}
+
+.founders p{
+    margin-top: 1rem;
+}
+
+.founders .foundimag{
+    display: flex; 
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    height: 30%;
+    margin-top: 4rem;
+
+}
+
+.foundimag .card-1{
+    /* border:1px solid black; */
+    border-radius: 3px;
+    margin-left: 2rem;
+    box-shadow: 0 0 10px #b6b3b3;
+    padding-top: 1.5rem;
+}
+
+.foundimag .card-1 h4{
+    padding-bottom: 2rem;
+}
+
+.foundimag img{
+    width: 50%;
+    text-align: center;
+
+}
+
+.wehelp{
+    text-align: center;
+    height: 40vh;
+    background-color: #eee;
+}
+
+.wehelp h1{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.wehelp a{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color:  rgb(199, 119, 90);
+    color: white;
+    border-radius: 5px;
+}
+
+.wehelp a:hover{
+    background-color: rgb(216, 93, 48);
+}
+
+.startup{
+    text-align: center;
+    height: 40vh;
+    background-color: #343a40;
+}
+
+.startup h1{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.startup a{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color:  rgb(199, 119, 90);
+    color: white;
+    border-radius: 5px;
+}
+
+.startup a:hover{
+    background-color: rgb(216, 93, 48);
+}
+
+.prices .pricedesc{
+    text-align: center;
+    border-radius: 5px;
+    margin: 2rem;
+    font-size: 1rem;
+}
+
+.prices .pricescont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prices .pricescont .box{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #b6b3b3;
+}
+
+.prices .pricescont .box ul li{
+    list-style: none;
+    padding: 1rem 1.5rem;
+}
+
+.prices .pricescont .box .h2,.h4{
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 0.5rem 0;
+    font-weight: lighter;
+    
+}
+
+.prices .pricescont .pricebtn{
+    border-top: 1px solid rgb(216, 215, 215);
+    text-align: center;
+    padding: 1.5rem ;
+}
+
+.prices .pricescont .pricebtn a{
+    padding: 8px 16px;
+    border: 1px solid orangered;
+    border-radius: 2px;
+    color: orangered;
+}
+
+.prices .pricescont .pricebtn a:hover{
+    background-color: orangered;
+    color: ghostwhite;
+}
+
+.numbers .numcont{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vh;
+    background-color:  #eee;
+    margin-top: 2rem;
+}
+
+.numbers h1{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    height: 50vh;
+    background-color: #343a40;
+}
+
+.footer h1{
+    padding-top: 2.5rem;
+}
+
+.footer a{
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    background-color:  rgb(199, 119, 90);
+    color: white;
+    border-radius: 5px;
+}
+
+.footer a:hover{
+    background-color: rgb(216, 93, 48);
+}
+
+.footer .f-p{
+    margin-top: 2rem;
+}
+
+.footer .f-p #f-1,#f-2{
+    margin-left: 1.25rem;
+}
